@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { ThemeContext } from "./providers/ThemeContext";
 import { ControlsPanel } from "./components/ControlsPanel";
 import { Header } from "./components/Header";
-import { UserProfile } from "./components/UserProfile";
 import "./App.css";
 export const translations = {
   en: {
@@ -20,7 +19,7 @@ function App() {
   const themeStyle = {
     backgroundColor: theme === "light" ? "#fff" : "black",
     height: "100vh",
-    display: "flex",
+    display: "flex", // Flex-контейнер
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",

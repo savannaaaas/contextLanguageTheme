@@ -20,7 +20,7 @@ function App() {
   const themeStyle = {
     backgroundColor: theme === "light" ? "#fff" : "black",
     height: "100vh",
-    display: "flex",
+    display: "flex", // Flex-контейнер
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
